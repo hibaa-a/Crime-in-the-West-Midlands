@@ -52,13 +52,32 @@ Fully recorded crimes in August 2020: 23644.
 
 Fully recorded crimes in August 2021: 29446.
 
+Using the dataframe we created in the above, we had a look at the total numbers of crimes committed in both years. 2021 saw an increase of 25% in crimes committed compared to 2020. 
+To get the total number of crimes for each year, we locked the dataframe for 
+2020 and 2021 and counted the values by “Crime ID” as this was unique for each crime. 
+The results were then placed in a new data frame and this bar chart was created 
+for easy visualisation.
+
+This allowed us to visualise and see that 2021 had an increase in crimes committed which answered our question with the answer that there was a difference in the total number of crimes as 2021 had an increase.
+
 ![image](https://user-images.githubusercontent.com/109045338/196573113-0380c961-a4d4-4ec5-a3b2-5fa3551cbc51.png)
 
 ## Question two: what are the top 5 types of crime and if the same trend is observed in these specific types of crimes across both months?
 
+As the crimes were grouped into so many categories, we selected the top 5 for 
+each year for further comparison and analysis. In order to find the top 5, we created a new dataframe by locking by “month” and grouping by “crime type”. This consisted of three columns, the type of crime and the years 2020 and 2021. The results were then added to a new data frame for simplicity in building new visualisations.
+The bar chart shows the top 5 crime types: “anti-social behaviour, 
+criminal damage and arson, public order, vehicle crime, and violence and sexual 
+offences” compared seperatelty to see if results were consisted with what we observed in the first part. We have also got them displayed in piecharts with 2020 at the top and 
+2021 below. The percentages displayed are the percentages of each crime type 
+in the top 5 rather than as a percentage from the total crime amount.
+
 ![image](https://user-images.githubusercontent.com/109045338/196573335-8d2c5044-4fb6-4e60-af2c-a0192bbe39a1.png)
 
 ![image](https://user-images.githubusercontent.com/109045338/196573345-4fbf7a48-54f6-40ee-973b-8b09239d947b.png)
+
+Even though violence and sexual offences had the gratest gap between both months, anti-social behaviour crimes were the only category where the number of crimes actually decreased from 2020 to 2021. This was by about 50% which might have been caused by frustration or boredom that many people felt in 2020 during the lockdown, but we are only data analysts and not social experts 
+so we can only assume.
 
 ![image](https://user-images.githubusercontent.com/109045338/196573355-9fba9494-de7f-4042-8c80-683d9b97a606.png)
 
