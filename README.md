@@ -82,7 +82,7 @@ Fully recorded crimes in August 2021: 29446.
 
 2021
 
-![image](![image](https://user-images.githubusercontent.com/111763918/196682828-b0e9dc38-bfc7-4d02-a807-40b1875a30c2.png))
+![image](https://user-images.githubusercontent.com/111763918/196682828-b0e9dc38-bfc7-4d02-a807-40b1875a30c2.png)
 
 ### Violence and Sexual Offences crimes around the University of Birmingham
 
